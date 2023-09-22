@@ -10,5 +10,24 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyB3OMS_bQ8kM_vKmYLaM6_37Y7_BHxbEYc",
+        authDomain: "rescuerabbits-55904.firebaseapp.com",
+        projectId: "rescuerabbits-55904",
+        storageBucket: "rescuerabbits-55904.appspot.com",
+        messagingSenderId: "483089406817",
+        appId: "1:483089406817:web:8056209b3e018c0c2a4320"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
